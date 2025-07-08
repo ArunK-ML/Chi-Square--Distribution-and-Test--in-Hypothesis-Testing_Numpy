@@ -24,4 +24,8 @@ Example: Does a dice show equal probability for all sides?
 | Input              | One row of observed values | Contingency table                                                        |
 | Test Formula       | $\sum \frac{(O-E)^2}{E}$   | $\sum \frac{(O-E)^2}{E}$                                                 |
 | Degrees of Freedom | n - 1                      | (rows - 1)(columns - 1)                                                  |
-| Expected Formula   | Given directly             | $\frac{\text{row total} \times \text{column total}}{\text{grand total}}$ |
+| Concept            | Chi-Square Goodness of Fit | Chi-Square Independence      
+| Lib Function       | chisquare                  | chi2_contingency 
+| ------------------ | -------------------------- | ------------------------------------------------------------------------ |
+                             
+
